@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Marca de Agua a PDF</title>
+</head>
+<body>
+<h1>Agregar Marca de Agua a PDF</h1>
+<form action="watermark.php" method="post" enctype="multipart/form-data">
+    <label for="pdf">Selecciona el archivo PDF:</label>
+    <input type="file" name="pdf" id="pdf" required><br><br>
+    <label for="watermark">Selecciona el archivo de marca de agua:</label>
+    <input type="file" name="watermark" id="watermark" required><br><br>
+    <input type="submit" value="Subir y Procesar">
+</form>
+</body>
+</html>
